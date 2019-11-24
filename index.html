@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href=practice/weatherapp/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>This is a weather app</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">NotWeather.com</h1>
+        <p class="lead">Feel free to input where you were born, where you're going tomorrow, or the city you last had dinner. Please.</p>
+        <dl>
+        <dt>Current Weather</dt>
+        <img id="wicon"></img>
+        <dd id="weather"></dd>
+        <dt>Temperature</dt>
+        <dd id="temp"></dd>
+        <p>We only output in Kelvin.</p>
+        </dl>
+        <form>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <input type="text" id="basic-addon1" placeholder="City"/></div>
+                <input class="btn btn-primary"type="submit" value="Get Weather Info"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
